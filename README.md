@@ -1,1 +1,12 @@
 # excel-assingment-1
+Total price  =sum(D2:D35)
+Number of product  =count(B2:B35)
+Average price  =average(D2:D35)
+Minimum Price  =min(D2:D35)
+maximum Price  =max(D2:D35)
+Total Price of Electronics =sumif(F2:F35,"Electronics",D2:D35)
+Number of product price below 100 =countif(D2:D35,"<100")
+Price range =if(D2>=500,"High Price","Standard Price")         find cell A2 then drage (Auto fill)
+Day =left(A2,2)
+Country code =right(A2,2)
+month =mid(A2,4,3)
